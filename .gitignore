@@ -1,0 +1,13 @@
+#APIs
+.env
+
+#Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+#os
+DS_Store
+
