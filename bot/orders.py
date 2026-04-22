@@ -3,7 +3,7 @@ from bot.logging_config import setup_logging
 
 logger = setup_logging()
 
-ORDER_ENDPOINT = '/fapi/v1/order'
+ORDER_ENDPOINT = '/api/v3/order'
 
 def place_market_order(client, symbol, side, quantity):
     # Validate inputs

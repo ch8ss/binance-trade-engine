@@ -1,0 +1,156 @@
+2026-04-21 14:49:56,172 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:49:56,172 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:49:56,172 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:52:35,528 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:52:35,528 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:52:35,528 - ERROR - Validation error: API_KEY and API_SECRET must be set in .env
+2026-04-21 14:53:04,519 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:53:04,519 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:53:04,519 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:53:04,525 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763384522, 'signature': '141a2ab6c4696876ff6e827c71ff52c30dff0b3702302f190fe2b70c30f38820'}
+2026-04-21 14:53:04,525 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763384522, 'signature': '141a2ab6c4696876ff6e827c71ff52c30dff0b3702302f190fe2b70c30f38820'}
+2026-04-21 14:53:04,525 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763384522, 'signature': '141a2ab6c4696876ff6e827c71ff52c30dff0b3702302f190fe2b70c30f38820'}
+2026-04-21 14:53:08,959 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:53:08,959 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:53:08,959 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:53:08,960 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:53:08,960 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:53:08,960 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:53:08,960 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:53:08,960 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:53:08,960 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:00,593 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:56:00,593 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:56:00,593 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:56:00,608 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763560595, 'signature': '36867ec2f3ab864fdec5fa34df60744396e256bde5758b419c1fbcbe7da69a65'}
+2026-04-21 14:56:00,608 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763560595, 'signature': '36867ec2f3ab864fdec5fa34df60744396e256bde5758b419c1fbcbe7da69a65'}
+2026-04-21 14:56:00,608 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763560595, 'signature': '36867ec2f3ab864fdec5fa34df60744396e256bde5758b419c1fbcbe7da69a65'}
+2026-04-21 14:56:02,273 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:56:02,273 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:56:02,273 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:56:02,274 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:02,274 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:02,274 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:02,275 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:02,275 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:56:02,275 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://testnet.binancefuture.com/fapi/v1/order
+2026-04-21 14:57:57,557 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:57:57,557 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:57:57,557 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 14:57:57,568 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763677560, 'signature': 'fc4d1df675b2ce3108c58a7e05106d6faaa0c414cea9a45855655fe1bcf0a8ff'}
+2026-04-21 14:57:57,568 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763677560, 'signature': 'fc4d1df675b2ce3108c58a7e05106d6faaa0c414cea9a45855655fe1bcf0a8ff'}
+2026-04-21 14:57:57,568 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776763677560, 'signature': 'fc4d1df675b2ce3108c58a7e05106d6faaa0c414cea9a45855655fe1bcf0a8ff'}
+2026-04-21 14:58:09,284 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:58:09,284 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:58:09,284 - ERROR - HTTP error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-04-21 14:58:09,288 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 14:58:09,288 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 14:58:09,288 - ERROR - Failed to place MARKET order: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 14:58:09,289 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 14:58:09,289 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 14:58:09,289 - ERROR - Unexpected error: 401 Client Error: Unauthorized for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,014 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:05:31,014 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:05:31,014 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:05:31,023 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764131017, 'signature': '3e3c296e2f9ad3b4ffb1ab9436a63a06ad5797eb3ae215be02e9e969b7c4c33e'}
+2026-04-21 15:05:31,023 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764131017, 'signature': '3e3c296e2f9ad3b4ffb1ab9436a63a06ad5797eb3ae215be02e9e969b7c4c33e'}
+2026-04-21 15:05:31,023 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764131017, 'signature': '3e3c296e2f9ad3b4ffb1ab9436a63a06ad5797eb3ae215be02e9e969b7c4c33e'}
+2026-04-21 15:05:31,975 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:05:31,975 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:05:31,975 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:05:31,976 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,976 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,976 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,977 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,977 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:05:31,977 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order
+2026-04-21 15:10:08,439 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:10:08,439 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:10:08,439 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:10:08,443 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764408442}
+2026-04-21 15:10:08,443 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764408442}
+2026-04-21 15:10:08,443 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764408442}
+2026-04-21 15:10:09,319 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:10:09,319 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:10:09,319 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:10:09,320 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:10:09,320 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:10:09,320 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:10:09,320 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:10:09,320 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:10:09,320 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764408442&signature=6db16311f96a56ae12d8e74a1277371a5af5d5b619381d5ee4cc6f47cee35324
+2026-04-21 15:13:26,245 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:13:26,245 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:13:26,245 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:13:26,248 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764606248}
+2026-04-21 15:13:26,248 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764606248}
+2026-04-21 15:13:26,248 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764606248}
+2026-04-21 15:13:27,062 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:13:27,062 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:13:27,062 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:13:27,063 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:27,063 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:27,063 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:27,063 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:27,063 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:27,063 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764606248&signature=9be1467f80ab47b99d5a76f85517686bd3163cfc66a4e9c70f824e99a47bb6a9
+2026-04-21 15:13:56,478 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:13:56,481 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764636481}
+2026-04-21 15:13:57,530 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764636481&signature=0b3313ec26cf451576efb30aa8b4700f1ab0b2e18eba79bcc63d5ace7d5227f4 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:13:57,531 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764636481&signature=0b3313ec26cf451576efb30aa8b4700f1ab0b2e18eba79bcc63d5ace7d5227f4
+2026-04-21 15:13:57,531 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764636481&signature=0b3313ec26cf451576efb30aa8b4700f1ab0b2e18eba79bcc63d5ace7d5227f4
+2026-04-21 15:15:01,389 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:15:01,393 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776764701393}
+2026-04-21 15:15:02,100 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764701393&signature=02b539528e76cfcbceaaa5f2e2f8200bca547accefaae6c6b2237ee5551c7594 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:15:02,100 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764701393&signature=02b539528e76cfcbceaaa5f2e2f8200bca547accefaae6c6b2237ee5551c7594
+2026-04-21 15:15:02,100 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776764701393&signature=02b539528e76cfcbceaaa5f2e2f8200bca547accefaae6c6b2237ee5551c7594
+2026-04-21 15:35:36,823 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:35:36,830 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776765936828}
+2026-04-21 15:35:37,746 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776765936828&signature=da0fa644880d389eac8c80531f2c130822238eda94706d0829e6ed458cfec434 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-21 15:35:37,746 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776765936828&signature=da0fa644880d389eac8c80531f2c130822238eda94706d0829e6ed458cfec434
+2026-04-21 15:35:37,748 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://demo-fapi.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776765936828&signature=da0fa644880d389eac8c80531f2c130822238eda94706d0829e6ed458cfec434
+2026-04-21 15:42:30,985 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 15:42:30,987 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776766350987}
+2026-04-21 15:42:32,833 - ERROR - HTTP error: 404 Client Error: Not Found for url: https://academy.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776766350987&signature=87250600a19db685f81efa1707a698623d4a1a2a065e1ab09b28d7e644d0b914 | Response: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>http://academy.binance.com/fapi/v1/order?symbol=BTCUSDT&amp;side=BUY&amp;type=MARKET&amp;quantity=0.01&amp;timestamp=1776766350987&amp;signature=87250600a19db685f81efa1707a698623d4a1a2a065e1ab09b28d7e644d0b914</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>tf_bin_prod_be_common_disp_asg_r1_0ca5edfcf410fad54</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/04/21 10:12:33</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+
+2026-04-21 15:42:32,833 - ERROR - Failed to place MARKET order: 404 Client Error: Not Found for url: https://academy.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776766350987&signature=87250600a19db685f81efa1707a698623d4a1a2a065e1ab09b28d7e644d0b914
+2026-04-21 15:42:32,834 - ERROR - Unexpected error: 404 Client Error: Not Found for url: https://academy.binance.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776766350987&signature=87250600a19db685f81efa1707a698623d4a1a2a065e1ab09b28d7e644d0b914
+2026-04-22 12:53:18,412 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-22 12:53:18,415 - INFO - Sending POST request to /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01, 'timestamp': 1776842598415}
+2026-04-22 12:53:18,887 - ERROR - HTTP error: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776842598415&signature=176c88179bc15c38c2edbb6986da7daf770d0bafad96bc39c2091c53ef583a69 | Response: {"code":-1022,"msg":"Signature for this request is not valid."}
+2026-04-22 12:53:18,887 - ERROR - Failed to place MARKET order: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776842598415&signature=176c88179bc15c38c2edbb6986da7daf770d0bafad96bc39c2091c53ef583a69
+2026-04-22 12:53:18,888 - ERROR - Unexpected error: 400 Client Error: Bad Request for url: https://testnet.binancefuture.com/fapi/v1/order?symbol=BTCUSDT&side=BUY&type=MARKET&quantity=0.01&timestamp=1776842598415&signature=176c88179bc15c38c2edbb6986da7daf770d0bafad96bc39c2091c53ef583a69
+2026-04-22 13:03:39,622 - INFO - Placing MARKET order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-04-22 13:03:39,625 - INFO - Sending POST request to /api/v3/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1776843219625}
+2026-04-22 13:03:40,030 - INFO - Response received: {'symbol': 'BTCUSDT', 'orderId': 7996982, 'orderListId': -1, 'clientOrderId': 'NbJOJnMtUOt2alPF4rnthY', 'transactTime': 1776843220054, 'price': '0.00000000', 'origQty': '0.00100000', 'executedQty': '0.00100000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '77.87181000', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1776843220054, 'fills': [{'price': '77871.81000000', 'qty': '0.00100000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 2082472}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-04-22 13:03:40,035 - INFO - MARKET order placed successfully: {'symbol': 'BTCUSDT', 'orderId': 7996982, 'orderListId': -1, 'clientOrderId': 'NbJOJnMtUOt2alPF4rnthY', 'transactTime': 1776843220054, 'price': '0.00000000', 'origQty': '0.00100000', 'executedQty': '0.00100000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '77.87181000', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1776843220054, 'fills': [{'price': '77871.81000000', 'qty': '0.00100000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 2082472}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-04-22 13:03:40,035 - INFO - Order completed successfully.
+2026-04-22 13:03:47,528 - INFO - Placing LIMIT order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 90000.0, 'timeInForce': 'GTC'}
+2026-04-22 13:03:47,528 - INFO - Sending POST request to /api/v3/order with params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 90000.0, 'timeInForce': 'GTC', 'timestamp': 1776843227528}
+2026-04-22 13:03:47,790 - INFO - Response received: {'symbol': 'BTCUSDT', 'orderId': 7997016, 'orderListId': -1, 'clientOrderId': 'J0JyX837eGUyS01lKgZeag', 'transactTime': 1776843227812, 'price': '90000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL', 'workingTime': 1776843227812, 'fills': [], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-04-22 13:03:47,794 - INFO - LIMIT order placed successfully: {'symbol': 'BTCUSDT', 'orderId': 7997016, 'orderListId': -1, 'clientOrderId': 'J0JyX837eGUyS01lKgZeag', 'transactTime': 1776843227812, 'price': '90000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL', 'workingTime': 1776843227812, 'fills': [], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-04-22 13:03:47,794 - INFO - Order completed successfully.

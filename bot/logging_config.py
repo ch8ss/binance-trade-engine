@@ -2,15 +2,16 @@ import logging
 
 def setup_logging():
     logger = logging.getLogger('trading_bot')
-    logger.setLevel(logging.INFO)
 
+    if logger.handlers:
+        return logger
+
+    logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-    # File handler
     file_handler = logging.FileHandler('trading_bot.log')
     file_handler.setFormatter(formatter)
 
-    # Console handler
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
 
