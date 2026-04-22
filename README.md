@@ -35,15 +35,22 @@ python3 cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 python3 cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 90000
 ```
 
+### Place a STOP_LOSS_LIMIT order
+```bash
+python3 cli.py --symbol BTCUSDT --side SELL --type STOP_LOSS_LIMIT --quantity 0.001 --stop-price 75000 --price 74900
+```
+> The order sits in the book and triggers a LIMIT sell at `74900` when the price drops to `75000`.
+
 ### All CLI arguments
 
-| Argument     | Required | Description                          |
-|--------------|----------|--------------------------------------|
-| `--symbol`   | Yes      | Trading pair e.g. `BTCUSDT`          |
-| `--side`     | Yes      | `BUY` or `SELL`                      |
-| `--type`     | Yes      | `MARKET` or `LIMIT`                  |
-| `--quantity` | Yes      | Order quantity e.g. `0.001`          |
-| `--price`    | No*      | Required for LIMIT orders            |
+| Argument        | Required | Description                                        |
+|-----------------|----------|----------------------------------------------------|
+| `--symbol`      | Yes      | Trading pair e.g. `BTCUSDT`                        |
+| `--side`        | Yes      | `BUY` or `SELL`                                    |
+| `--type`        | Yes      | `MARKET`, `LIMIT`, or `STOP_LOSS_LIMIT`            |
+| `--quantity`    | Yes      | Order quantity e.g. `0.001`                        |
+| `--price`       | No*      | Required for `LIMIT` and `STOP_LOSS_LIMIT` orders  |
+| `--stop-price`  | No*      | Trigger price — required for `STOP_LOSS_LIMIT`     |
 
 ### Example output
 ```
@@ -85,5 +92,5 @@ Binance_Project/
 - Targets the **Binance Spot Testnet** (`testnet.binance.vision`) using the `/api/v3/order` endpoint.
 - API keys must be generated specifically from the Spot Testnet — keys from the real exchange or the Futures testnet will not work.
 - Requests are authenticated with HMAC-SHA256 signatures as per the Binance API specification.
-- LIMIT orders use `timeInForce: GTC` (Good Till Cancelled) by default.
+- LIMIT and STOP_LOSS_LIMIT orders use `timeInForce: GTC` (Good Till Cancelled) by default.
 - No real funds are used; the testnet provides simulated balances.
